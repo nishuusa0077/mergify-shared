@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: permissive-from-shared
+    conditions:
+      - author~=.*
+    actions:
+      comment:
+        message: "shared rule hit"
